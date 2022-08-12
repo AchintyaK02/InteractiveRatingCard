@@ -9,7 +9,9 @@ for(var i = 0 ; i< 5; i++){
 }
 
 function selectNumber(num1 ,num2){
-  document.querySelectorAll(".number")[num1-1].classList.remove("selected");
+  if(num1 !== 0){
+      document.querySelectorAll(".number")[num1-1].classList.remove("selected");
+  }
   document.querySelectorAll(".number")[num2-1].classList.add("selected");
 }
 
