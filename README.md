@@ -1,2 +1,1 @@
-# InteractiveRatingCard
-frontendmentor.io 
+Interactive Rating Component Solution from frontendmentor.io

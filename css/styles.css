@@ -1,0 +1,102 @@
+body{
+  background-color:hsl(216, 12%, 8%);
+  font-family:"Overpass";
+  color:white;
+  margin:10%;
+}
+
+h3{
+font-size:1.5rem;
+}
+
+h5{
+  color:hsl(216, 12%, 54%);
+  font-size:0.9rem;
+  line-height:1.5;
+}
+
+.container-fluid{
+  padding: 3%;
+  min-width:200px;
+  max-width: 400px;
+  border-radius:20px;
+  margin:5% auto;
+
+}
+
+.star-img{
+  background-color:hsl(213, 19%, 18%);
+  width:12%;
+  padding:12px;
+  border-radius:50%;
+  margin: 0 0 10%;
+
+}
+
+.grad {
+  background: repeating-radial-gradient(circle at 50% 0,
+     hsl(213, 19%, 18%),
+     hsl(216, 12%, 8%));
+}
+
+.number-container{
+  padding:5% 0;
+  display:flex;
+  justify-content:space-between;
+}
+
+.number{
+  padding:2%;
+  width:15%;
+  aspect-ratio:1;
+  background-color:hsl(213, 19%, 18%);
+  border-radius: 50%;
+  color:hsl(216, 12%, 54%);
+  border-color: transparent;
+}
+
+.number:hover{
+  background-color:hsl(217, 12%, 63%);
+  color:white;
+}
+
+.selected{
+  color:white;
+  background-color:hsl(25, 97%, 53%);
+}
+
+.btn{
+  width:100%;
+  padding:10px;
+  border-radius:20px;
+}
+
+.submit-button{
+  margin-top:5%;
+  background-color:hsl(25, 97%, 53%);
+  color:white;
+}
+
+.submit-button:hover{
+  background-color:white;
+  color:hsl(25, 97%, 53%);
+}
+
+.hiddenCard{
+  display:none;
+}
+
+/* Thank Yout State */
+.thankyou-state{
+  text-align:center;
+}
+
+.you-selected{
+  color:hsl(25, 97%, 53%);
+  padding:1% 4%;
+  margin:10% auto;
+  background-color:hsl(213, 19%, 18%);
+  width:60%;
+  border-radius:20px;
+  font-size:0.9em;
+}
